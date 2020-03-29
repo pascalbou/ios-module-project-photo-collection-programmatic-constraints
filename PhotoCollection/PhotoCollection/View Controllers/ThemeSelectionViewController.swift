@@ -47,7 +47,7 @@ class ThemeSelectionViewController: UIViewController {
         
         let blueButton = UIButton(type: .system)
         blueButton.translatesAutoresizingMaskIntoConstraints = false
-        blueButton.setTitle("Dark", for: .normal)
+        blueButton.setTitle("Blue", for: .normal)
         blueButton.addTarget(self, action: #selector(selectBlueTheme), for: .touchUpInside)
         view.addSubview(blueButton)
         blueButton.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor, constant: 0).isActive = true
